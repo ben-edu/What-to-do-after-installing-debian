@@ -4,17 +4,17 @@
 
 ### Wifi
 
-``` sudo nano /etc/apt/sources.list 
-deb http://httpredir.debian.org/debian/ stretch main contrib non-free 
-sudo apt-get update && apt-get install firmware-iwlwifi 
-sudo modprobe -r iwlwifi
-sudo modprobe iwlwifi ´´´
+```sudo nano /etc/apt/sources.list``` 
+``` deb http://httpredir.debian.org/debian/ stretch main contrib non-free ```
+```sudo apt-get update && apt-get install firmware-iwlwifi ```
+```sudo modprobe -r iwlwifi```
+```sudo modprobe iwlwifi```
 
 ## Software
 
 ### Git
 
-``` sudo apt-get install git ´´´
+``` sudo apt-get install git```
 
 ### Enpass 
 
