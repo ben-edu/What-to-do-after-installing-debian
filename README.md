@@ -26,6 +26,13 @@ sudo wget -O - https://apt.enpass.io/keys/enpass-linux.key | apt-key add -
 sudo apt-get update
 sudo apt-get install enpass
 ``` 
+### LaTex
+```
+sudo apt-get install texlive-full
+
+sudo apt-get install kile
+```
+
 ## Otros
 
 ### Crear iconos 
