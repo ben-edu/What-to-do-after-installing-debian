@@ -59,6 +59,13 @@ Encoding=UTF-8
 Categories=Application;Network;MailClient;Email;News;GTK;
 ```
 
+## Utilidades
+
+### Copiar archivos tar a opt
+```
+sudo tar -jxvf firefox-67.0b13.tar.bz2 -C /opt/
+```
+
 ### Net-tools
 ```
 sudo apt install Net-tools
