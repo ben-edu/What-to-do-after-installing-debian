@@ -16,7 +16,15 @@ sudo nano /etc/apt/sources.list
 
 ### Git
 
+####Instalación
+
 ``` sudo apt-get install git```
+
+#### Configurando Git por primera vez 
+```
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+```
 
 ### Enpass 
 
