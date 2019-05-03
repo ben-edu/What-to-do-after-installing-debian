@@ -16,7 +16,7 @@ sudo nano /etc/apt/sources.list
 
 ### Git
 
-####Instalación
+#### Instalación
 
 ``` sudo apt-get install git```
 
@@ -25,7 +25,11 @@ sudo nano /etc/apt/sources.list
 $ git config --global user.name "John Doe"
 $ git config --global user.email johndoe@example.com
 ```
-
+#### Eliminando archivos y directorios del repositorio
+```
+git rm --cached nombre_archivo
+git rm -r --cached nombre_directorio
+```
 ### Enpass 
 
 ``` 
